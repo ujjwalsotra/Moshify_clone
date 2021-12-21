@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-            <link rel="stylesheet" href="css/normalize.css">
-            <link rel="stylesheet" href="css/styles.css">
-</head>
-<body >
-  <section class="block containerss">
-    <header class="block__header">
-      <h2 class="block__heading">Heading</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati doloremque sunt iste libero tempora quis enim animi laborum assumenda blanditiis.</p>
-    </header>
-    <div class="card card--secondary"style="width:30%; padding: 4rem;">
-      <header class="card__header">Card title </header>
-         <div class="card__body"> 
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus reprehenderit porro ab laboriosam veniam ipsam officiis nemo aspernatur quod quis sit inventore molestias quo sequi repellendus culpa ut, labore quas!
-        </div>
-      </div>
-  </section> <!----WE CAN REPRESENT A BLOCK USING SECTION ELEMENT*/--> 
-  <section class="block block--dark block--skewed-left">
-    <h2 class="block__heading">Heading</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati doloremque sunt iste libero tempora quis enim animi laborum assumenda blanditiis.</p>
-  </section>
-  <script src="js/main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a href="/"><img src="images/logo.svg" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__items"><a href="#">Hosting</a></li>
+        <li class="nav__items"><a href="#">VPS</a></li>
+        <li class="nav__items"><a href="#">DOMAIN</a></li>
+        <li class="nav__items"><a href="#">PRICING</a></li>
+      </ul>
+    </nav>
+    <script src="js/main.js"></script>
+  </body>
 </html>
