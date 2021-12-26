@@ -43,8 +43,9 @@
          <a href="" class="btn btn--accent btn--stretch"> Get Started</a>
       </header>
       <picture>
-        <source type="image/webp" srcset="images/banner.webp 1x, images/banner @2x.webp 2x"/>
-        <img class="hero__image"src="images/banner.png" alt=""/>
+        <source type="image/webp" srcset="images/banner.webp 1x, images/banner@2x.webp 2x"/>
+        <source type="image/png" srcset="images/banner.png 1x, images/banner@2x.png 2x"/>
+        <img class="hero__image" src="images/banner.png" alt=""/>
       </picture>
     </div>
   </section>
@@ -154,7 +155,7 @@
     <picture data-aos="zoom-in-left">
       <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
       <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy.jpg 2x">
-      <img class="feature__image"src="images/easy.jpg" alt="">
+      <img class="feature__image" src="images/easy.jpg" alt="">
     </picture>
   </article>
   <article class="grid grid--1x2 feature">
@@ -210,7 +211,7 @@
     </picture>
   </article>
   <article class="grid grid--1x2 feature">
-    <div class="feature__content"data-aos="fade-up-left">
+    <div class="feature__content" data-aos="fade-up-left">
       <span class="icon-container">
         <svg class="icon icon--primary">
           <use xlink:href="images/sprite.svg#clock"></use>
@@ -337,12 +338,12 @@
 <footer class="block block--dark footer" data-aos="zoom-out">
   <div class="container grid footer__section">
     <section class="collapsible collapsible--expanded footer__section">
-      <header class="collapsible__header">
+      <div class="collapsible__header">
         <h2 class="collapsible__heading footer__heading">PRODUCTS</h2>
         <svg class="icon icon-white collapsible__chevron">
           <use xlink:href="images/sprite.svg#chevron"></use>
         </svg>
-      </header>
+      </div>
       <div class="collapsible__content">
         <ul class="list">
           <li><a href="#">Website Hosting</a></li>
@@ -352,12 +353,12 @@
       </div>
     </section>
     <section class="collapsible footer__section">
-      <header class="collapsible__header">
+      <div class="collapsible__header">
         <h2 class="collapsible__heading footer__heading">COMPANY</h2>
         <svg class="icon icon-white collapsible__chevron">
           <use xlink:href="images/sprite.svg#chevron"></use>
         </svg>
-      </header>
+      </div>
       <div class="collapsible__content">
         <ul class="list">
           <li><a href="#">About</a></li>
@@ -367,12 +368,12 @@
       </div>
     </section>
     <section class="collapsible footer__section">
-      <header class="collapsible__header">
+      <div class="collapsible__header">
         <h2 class="collapsible__heading footer__heading">SUPPORT</h2>
         <svg class="icon icon-white collapsible__chevron">
           <use xlink:href="images/sprite.svg#chevron"></use>
         </svg>
-      </header>
+      </div>
       <div class="collapsible__content">
         <ul class="list">
           <li><a href="#">Contact</a></li>
@@ -381,10 +382,10 @@
         </ul>
       </div>
     </section>
-    <section class="footer__brand">
+    <div class="footer__brand">
       <img src="images/logo.svg" alt="">
       <p class="footer__copyright">Copyright 2020 Ujjwal sotra</p>
-    </section>
+    </div>
   </div>
 </footer>
   <script src="js/main.js"></script>

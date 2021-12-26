@@ -106,12 +106,12 @@ a{
     padding: 0.5rem 1.5rem;
 }
 
-@media scree and (min-width:1024px){
+@media screen and (min-width:1024px){
     .badge{
         font-size: 1.5rem;
     }
     .badge--small{
-        font: size 1.2rem;;
+        font-size:1.2rem;;
     }
 }
 
@@ -231,7 +231,7 @@ a{
 }
 
 .btn--stretch{
-     padding: left 6rem;
+     padding-left: 6rem;
      padding-right: 6rem;
 }
 .btn--outline{
@@ -655,7 +655,7 @@ a{
     .nav__list{
         width: auto;
         display: flex;
-        font: size 1.6rem;
+        font-size: 1.6rem;
         max-height: 100%;
         opacity: 1;
     }
