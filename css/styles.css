@@ -120,7 +120,6 @@ a{
 .list{
     list-style: none;/* get rid of the default bullet points */
     padding-left: 0;
-    
 }
 
 .list--inline .list__item{
@@ -188,7 +187,7 @@ a{
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -273,6 +272,7 @@ a{
     border:0;
     padding: 1.5rem 2rem;
     flex-grow: 1;/* WILL MAKE THIS GROW TO TAKE UP ALL THE AVAILABLE SPACE*/
+    width: 0;
 }
 .input-group .btn{
     margin: 4px;
@@ -517,6 +517,11 @@ a{
 }
 
 @media screen and (min-width:768px){
+    .callout{
+        margin-right: 5rem;
+        margin-left: 5rem;
+        margin-top: 5px;
+    }
     .callout .grid--1x2{
         grid-template-columns: 1fr auto;
     }
@@ -654,7 +659,7 @@ a{
         max-height: 100%;
         opacity: 1;
     }
-    .nav__item{
+    .nav__items{
         border: 0;
     }
 
@@ -691,8 +696,9 @@ a{
 
 }
 .block-domain__prices{
+    color: var(--color-headings);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,6rem);
     font-size: 2rem;
     font-weight: 600;
@@ -751,6 +757,7 @@ a{
     }
     .block-showcase__image{
         justify-self: end;
+        margin-right: 2rem;
     }
     .block-showcase__mainimage{
         width:auto;
