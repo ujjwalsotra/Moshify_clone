@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
    <header>
@@ -29,7 +30,7 @@
       </ul>
     </nav>
    </header>
-   <section class="block block--dark block--skewed-left hero">
+   <section class="block block--dark block--skewed-left hero" data-aos="fade-down">
     <div class=" container grid grid--1x2">
       <header class="block__header hero__content">
         <h1 class="block__heading">Cloud hosting for pros</h1>
@@ -42,7 +43,7 @@
       </picture>
     </div>
   </section>
-  <section class="block container block-domain">
+  <section class="block container block-domain" data-aos="fade-up">
     <header class="block__header">
       <h2>Starting at $9 per month</h2>
       <p>
@@ -65,10 +66,10 @@
     <li>.io $3</li>
   </ul>
 </section>
-<section class="block container block-plans">
+<section class="block container block-plans" data-aos="zoom-in">
   <div class="grid grid--1x3">
     <div class="plan">
-      <div class="card card--secondary">
+      <div class="card card--secondary" data-aos="fade-right">
         <header class="card__header">
           <h3 class="plan__name">Entry</h3>
           <span class="plan__price">$14</span>
@@ -87,7 +88,7 @@
         </div>
       </div>
     </div>
-    <div class="plan plan--popular">
+    <div class="plan plan--popular" data-aos="zoom-in">
       <div class="card card--primary">
         <header class="card__header">
           <h3 class="plan__name">Entry</h3>
@@ -108,7 +109,7 @@
       </div>
   </div>
     <div class="plan">
-      <div class="card card--secondary">
+      <div class="card card--secondary" data-aos="fade-left">
         <header class="card__header">
           <h3 class="plan__name">Entry</h3>
           <span class="plan__price">$14</span>
@@ -129,13 +130,13 @@
     </div>
   </div>
 </section>
-<section class="block container">
+<section class="block container" data-aos="zoom-out">
   <header class="block__header">
     <h2>Host on the Cloud to Keep Growing</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, officiis.</p>
   </header>
   <article class="grid grid--1x2 feature">
-    <div class="feature__content">
+    <div class="feature__content" data-aos="fade-right">
       <span class="icon-container">
         <svg class="icon">
           <use xlink:href="images/sprite.svg#easy"></use>
@@ -145,14 +146,14 @@
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora iusto odit doloribus! Consequuntur, rem animi.</p>
       <a href="#" class="Link-arrow">Learn More</a>
     </div>
-    <picture>
+    <picture data-aos="zoom-in-left">
       <source type="image/webp" srcset="images/easy.webp 1x, images/easy@2x.webp 2x">
       <source type="image/jpg" srcset="images/easy.jpg 1x, images/easy.jpg 2x">
       <img class="feature__image"src="images/easy.jpg" alt="">
     </picture>
   </article>
   <article class="grid grid--1x2 feature">
-    <div class="feature__content">
+    <div class="feature__content" data-aos="fade-left">
       <span class="icon-container">
         <svg class="icon icon--primary">
           <use xlink:href="images/sprite.svg#computer"></use>
@@ -165,7 +166,7 @@
       </p>
       <a href="#" class="link-arrow">Learn More</a>
     </div>
-    <picture>
+    <picture data-aos="zoom-in-right">
       <source
         type="image/webp"
         srcset="images/fast.webp 1x, images/fast@2x.webp 2x"
@@ -178,7 +179,7 @@
     </picture>
   </article>
   <article class="grid grid--1x2 feature">
-    <div class="feature__content">
+    <div class="feature__content" data-aos="fade-right">
       <span class="icon-container">
         <svg class="icon icon--primary">
           <use xlink:href="images/sprite.svg#wordpress"></use>
@@ -191,7 +192,7 @@
       </p>
       <a href="#" class="link-arrow">Learn More</a>
     </div>
-    <picture>
+    <picture data-aos="zoom-in-left">
       <source
         type="image/webp"
         srcset="images/wordpress.webp 1x, images/wordpress@2x.webp 2x"
@@ -204,7 +205,7 @@
     </picture>
   </article>
   <article class="grid grid--1x2 feature">
-    <div class="feature__content">
+    <div class="feature__content"data-aos="fade-up-left">
       <span class="icon-container">
         <svg class="icon icon--primary">
           <use xlink:href="images/sprite.svg#clock"></use>
@@ -217,7 +218,7 @@
       </p>
       <a href="#" class="link-arrow">Learn More</a>
     </div>
-    <picture>
+    <picture data-aos="fade-down-right">
       <source
         type="image/webp"
         srcset="images/support.webp 1x, images/support@2x.webp 2x"
@@ -230,17 +231,17 @@
     </picture>
   </article>
 </section>
-<section class="block block--dark block--skewed-right block-showcase">
-  <header class="block__header">
+<section class="block block--dark block--skewed-right block-showcase" data-aos="zoom-out-up">
+  <header class="block__header" data-aos="zoom-in-down">
     <h2>User-friendly Control Panel</h2>
     <div class="container grid grid--1x2">
-      <picture class="block-showcase__image">
+      <picture class="block-showcase__image" data-aos="fade-right">
         <source type="image/webp" srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x">
         <source type="image/jpg" srcset="images/ipad.jpg 1x, images/ipad@2x.jpg 2x">
         <img class="block-showcase__mainimage" src="images/ipad@2x.jpg" alt="">
      </picture>
       <ul class="list">
-        <li>
+        <li data-aos="slide-up">
          <div class="media">
            <div class="media__image">
                <svg class="icon icon--primary">
@@ -253,7 +254,7 @@
              </div>
        </div>
         </li>
-        <li>
+        <li data-aos="slide-up">
          <div class="media">
            <div class="media__image">
                <svg class="icon icon--primary">
@@ -266,7 +267,7 @@
              </div>
        </div>
         </li>
-        <li>
+        <li data-aos="slide-up">
          <div class="media">
            <div class="media__image">
                <svg class="icon icon--primary">
@@ -283,12 +284,12 @@
     </div>
   </header>
 </section>
-<section class="block">
-  <header class="block__header">
+<section class="block" data-aos="fade-up">
+  <header class="block__header" data-aos="fade-down">
     <h2>What our Customer Says</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
   </header>
-  <div class="container">
+  <div class="container" data-aos="fade-down">
     <div class="card testimonial">
       <div class="grid grid--1x2">
         <div class="testimonial__image">
@@ -319,7 +320,7 @@
     </div>
   </div>
 </section>
-<div class="callout callout--primary">
+<div class="callout callout--primary" data-aos="zoom-out">
   <div class="grid grid--1x2">
     <div class="callout__content">
       <h2 class="callout__heading">Ready to Get started</h2>
@@ -328,7 +329,7 @@
     <a href="#" class="btn btn--secondary btn--stretch">Get Started</a>
   </div>
 </div>
-<footer class="block block--dark footer">
+<footer class="block block--dark footer" data-aos="zoom-out">
   <div class="container grid footer__section">
     <section class="collapsible collapsible--expanded footer__section">
       <header class="collapsible__header">
@@ -382,5 +383,9 @@
   </div>
 </footer>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
